@@ -6,16 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  bota1() {
-    console.log('acao')
-  }
- bota2() {
+ botao3() {
+  console.log('acao1')
+ }
+ botao4() {
   console.log('acao2')
- }
- bota3() {
-  console.log('acao3')
- }
- bota4() {
-  console.log('acao4')
  }
 }

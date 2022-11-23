@@ -1,3 +1,7 @@
-<button class="btn" (click)="exibir()">      <!--Funcao-->
-  <p class="btn-text">{{txt}}</p>       <!--variavel-->
+
+
+<button class="btn" [disabled]="disabled"  (click)="clickDoBotao()">
+  <p class="btn-text">{{text}}</p>
 </button>
+
+
