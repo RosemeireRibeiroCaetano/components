@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MeuprimeirobotaoComponent } from './meuprimeirobotao/meuprimeirobotao.component';
 import { MeusegundobotaoComponent } from './meusegundobotao/meusegundobotao.component';
 import { MeuterceirobotaoComponent } from './meuterceirobotao/meuterceirobotao.component';
+import { MeuquartobotaoComponent } from './meuquartobotao/meuquartobotao.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { MeuterceirobotaoComponent } from './meuterceirobotao/meuterceirobotao.c
     MeuprimeirobotaoComponent,
     MeusegundobotaoComponent,
     MeuterceirobotaoComponent,
+    MeuquartobotaoComponent,
   ],
   imports: [
     BrowserModule,

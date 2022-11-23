@@ -15,4 +15,7 @@ export class AppComponent {
  bota3() {
   console.log('acao3')
  }
+ bota4() {
+  console.log('acao4')
+ }
 }
