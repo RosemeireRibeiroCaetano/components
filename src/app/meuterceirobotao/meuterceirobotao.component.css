@@ -1,0 +1,32 @@
+.btn {
+  height: 20px;
+  width: 160px;
+  background: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  color:  #109CF1;;
+}
+
+.btn:hover {
+  color: #34AFF9;
+}
+
+.btn:active {
+ color:  #098EDF;
+}
+
+.btn:disabled {
+  color: #109CF1;
+  opacity: 0.4;
+}
+
+.btn-text {
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+}
+
