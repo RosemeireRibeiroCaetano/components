@@ -2,37 +2,47 @@
   height: 42px;
   width: 160px;
   border: none;
-  border: 1px solid #109CF1;
   border-radius: 4px;
-  background: #FFFFFF;
   cursor: pointer;
-}
-.btn-text {
-  color: #109CF1;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 20px;
-  letter-spacing: 0.01em;
+  border: 1px solid #109CF1;
+
 }
 
 .btn:hover {
   border: 1px solid #34AFF9;
   border-radius: 4px;
+
 }
+
 .btn:hover .btn-text {
   color: #34AFF9;
 }
+
 .btn:active {
   border: 1px solid #098EDF;
   border-radius: 4px;
 }
+
 .btn:active .btn-text {
-  color: #098EDF;
+   color: #098EDF;
 }
-.btn:disabled{
+
+.btn:disabled {
   border: 1px solid #C2CFE0;
   border-radius: 4px;
+
 }
+
 .btn:disabled .btn-text {
   color: #C2CFE0;
 }
+.btn-text {
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #109CF1; ;
+}
+

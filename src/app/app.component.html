@@ -1,10 +1,25 @@
 <div class="container">
-    <app-meuprimeirobotao class="espaco" [disabled]="true" text="Accent button" (acao)="botao4()"></app-meuprimeirobotao>
-    <app-meuprimeirobotao class="espaco" [disabled]="false" text="Accent button" (acao)="botao4()"></app-meuprimeirobotao>
-    <app-meusegundobotao class="espaco" [disabled]="false" texto="Secondary button" (acao2)="botao5()"></app-meusegundobotao>
-    <app-meusegundobotao  class="espaco" [disabled]="true" texto="Secondary button" (acao2)="botao5()"></app-meusegundobotao>
-    <app-meuterceirobotao class="espaco" [disabled]="false" texto1="Tertiary button" (acao3)="botao()"></app-meuterceirobotao>
-    <app-meuterceirobotao [disabled]="true" texto1="Tertiary button" (acao3)="botao()"></app-meuterceirobotao>
+<app-meuprimeirobotao  class="espaco" [disabled]="false" texto="Accent button" (acao)="botao()"></app-meuprimeirobotao>
+<app-meuprimeirobotao class="espaco" [disabled]="true" texto="Accent button" (acao)="botao()"></app-meuprimeirobotao>
+<app-meusegundobotao  class="espaco" [disabled]="false" texto1="Secondary button" (acao1)="botao()"></app-meusegundobotao>
+<app-meusegundobotao  class="espaco"[disabled]="true" texto1="Secondary button" (acao1)="botao()"></app-meusegundobotao>
+<app-meuterceirobotao  class="espaco"[disabled]="false" texto2="Tertiary button" (acao2)="botao()"></app-meuterceirobotao>
+<app-meuterceirobotao class="espaco" [disabled]="true" texto2="Tertiary button" (acao2)="botao()"></app-meuterceirobotao>
+
+
+<app-checkbox class="espaco" (clica)="funcaoDeClickNoCheckBox($event)"></app-checkbox>
+
+
+<app-checkboxsegundo class="espaco" (clica)="funcaoDeClickNoCheckBoxSegundoBtn($event)"></app-checkboxsegundo>
+
+<app-checkboxterceiro class="espaco" (emitindoEventoDeClick)="funcaoDeClickNoTerceitoBtn($event)"></app-checkboxterceiro>
+
+
+<app-checkboxquarto class="espaco" (clica)="funcaoDeClickNoquartoBtn($event)"></app-checkboxquarto>
+
+
+<app-checkboxquinto class="espaco" (clica)="funcaoDeClickNoQuintoBtn($event)"></app-checkboxquinto>
+
 
 </div>
 

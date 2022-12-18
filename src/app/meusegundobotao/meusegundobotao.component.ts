@@ -5,13 +5,13 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   templateUrl: './meusegundobotao.component.html',
   styleUrls: ['./meusegundobotao.component.css']
 })
-export class MeusegundobotaoComponent {
-  @Input() texto = "";
+export class MeusegundobotaoComponent  {
+  @Input() texto1 = "";
   @Input() disabled = false;
-  @Output() acao2 = new EventEmitter<any>();
+  @Output() acao1 = new EventEmitter<any>();
 
   clickDoBotao() {
-    this.acao2.emit()
+    this.acao1.emit()
   }
 
 }

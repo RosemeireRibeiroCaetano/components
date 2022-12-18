@@ -6,22 +6,51 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  botao() {
+    console.log('acao')
+  }
+  botao1() {
+    console.log('acao')
+  }
+  botao2() {
+    console.log('acao1')
+  }
   botao3() {
     console.log('acao1')
   }
   botao4() {
+   console.log('acao2')
+  }
+  botao5() {
     console.log('acao2')
   }
-  botao5(){
-    console.log('acao5')
+
+  funcaoDeClickNoCheckBox(x: boolean) {
+    console.log('clicando aqui', x)
   }
-  botao6() {
-    console.log('acao6')
+
+  funcaoDeClickNoCheckBoxSegundoBtn(x: boolean) {
+    console.log('clicando aqui', x)
   }
-  botao1() {
-    console.log('acao8')
+
+  funcaoDeClickNoquartoBtn(x: boolean) {
+    console.log('clicando aqui', x)
   }
-  botao() {
-    console.log('acao8')
+
+  funcaoDeClickNoTerceitoBtn(x: boolean) {
+    console.log('clicando ', x)
   }
+
+  funcaoDeClickNoQuintoBtn(x: boolean) {
+    console.log('quinto')
+  }
+
+
+
+
+
+
 }
+
+
+

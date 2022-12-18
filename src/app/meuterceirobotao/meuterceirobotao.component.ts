@@ -5,12 +5,14 @@ import { Component, EventEmitter, Input, Output} from '@angular/core';
   templateUrl: './meuterceirobotao.component.html',
   styleUrls: ['./meuterceirobotao.component.css']
 })
-export class MeuterceirobotaoComponent  {
-  @Input() texto1 = "";
+export class MeuterceirobotaoComponent {
+  @Input() texto2 = "";
   @Input() disabled = false;
-  @Output() acao3 = new EventEmitter<any>();
+  @Output() acao2 = new EventEmitter<any>();
 
-  clickDoBotao1() {
-    this.acao3.emit()
+  clickDoBotao() {
+    this.acao2.emit()
   }
+
+
 }

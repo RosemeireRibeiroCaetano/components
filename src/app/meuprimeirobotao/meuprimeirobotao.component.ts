@@ -6,11 +6,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./meuprimeirobotao.component.css']
 })
 export class MeuprimeirobotaoComponent  {
-  @Input() text = "";
+  @Input() texto = "";
   @Input() disabled = false;
   @Output() acao = new EventEmitter<any>()
 
-  clickDoBotao(){
+  clickDoBotao() {
     this.acao.emit()
   }
 
