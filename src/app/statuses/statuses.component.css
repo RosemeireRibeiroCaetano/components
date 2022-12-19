@@ -2,10 +2,11 @@
   height:22px;
   width: 84px;
   border-radius: 4px;
-  background-color:  #885AF8
+
 }
-.amarelo {
-  background-color:  #FFB946;
+
+.roxo {
+  background-color:  #885AF8
 }
 .verde {
   background-color:  #2ED47A;
@@ -13,7 +14,9 @@
 .vermelho {
   background-color:  #F7685B;
 }
-
+.amarelo {
+  background-color:  #FFB946;
+}
 
 span {
   display: flex;

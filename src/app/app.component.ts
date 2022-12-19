@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  public meutexto = 'rose com componentes';
+  public botaoroxo = 'Scheduled';
+  public botaoverde = 'Sent';
+  public botaovermelho = 'Archived';
+  public botaoamarelo = 'Draft';
+
 
   botao() {
     console.log('acao')
