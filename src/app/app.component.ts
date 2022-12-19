@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  public meutexto = 'rose com componentes';
+
   botao() {
     console.log('acao')
   }

@@ -13,6 +13,8 @@ import { CheckboxsegundoComponent } from './checkboxsegundo/checkboxsegundo.comp
 import { CheckboxterceiroComponent } from './checkboxterceiro/checkboxterceiro.component';
 import { CheckboxquartoComponent } from './checkboxquarto/checkboxquarto.component';
 import { CheckboxquintoComponent } from './checkboxquinto/checkboxquinto.component';
+import { StatusesComponent } from './statuses/statuses.component';
+
 
 
 
@@ -30,6 +32,8 @@ import { CheckboxquintoComponent } from './checkboxquinto/checkboxquinto.compone
     CheckboxterceiroComponent,
     CheckboxquartoComponent,
     CheckboxquintoComponent,
+    StatusesComponent,
+
   ],
   imports: [
     BrowserModule,
