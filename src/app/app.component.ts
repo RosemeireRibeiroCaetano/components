@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  public botaoroxo = 'Scheduled';
-  public botaoverde = 'Sent';
-  public botaovermelho = 'Archived';
-  public botaoamarelo = 'Draft';
+  public botaoverde = 'Completed';
+  public botaovermelho = 'Ended';
+  public botaoamarelo = 'Active';
 
 
   botao() {

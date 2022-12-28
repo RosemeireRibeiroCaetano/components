@@ -6,8 +6,6 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./statuses.component.css']
 })
 export class StatusesComponent  {
-@Input() public text = '';
-@Input() public cor = '';
-
-
+  @Input() public text = '';
+  @Input() public cor = '';
 }
